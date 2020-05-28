@@ -1,0 +1,564 @@
+﻿
+/* Свой тег {Свойство: значение;} */
+
+ 		body {
+    	background:#55485a url(/Сасайт/IMG/space-01.jpg) no-repeat;
+    	-moz-background-size: 100%; 
+    	-webkit-background-size: 100%; 
+    	-o-background-size: 100%; 
+    	background-size: 100%;
+    	} 
+
+ 		ul.navigation {
+ 			 z-index: 10;
+      float:justify ;
+      left: 0;
+      top:0;
+      width: 100%;
+      list-style: none; 
+      opacity: 0.88;/*Празрачность*/
+        margin: 0; 
+        padding-left: 0; 
+        overflow: hidden;
+        position:fixed;
+        /*position: relative;
+        border-radius: 9px;*/
+        background: linear-gradient(to left, #cc8d8d 66%, #c78394 );
+        padding: 0.5% ; 
+        text-transform: uppercase;
+      }
+
+      ul.navigation:hover {opacity: 1;}
+
+  		ul.footer {padding-top: 1ex; padding-bottom: 1ex;
+        width: 100%;
+  			list-style: none;
+  			opacity: 0.95;/*Празрачность*/
+  			margin: 0; 
+  			padding-left: 0; 
+  			overflow: hidden;
+  			position: relative;
+  			}
+
+	 	a.шапка {
+          font-family: Trebuchet MS, sans-serif;
+          overflow: hidden;
+          white-space: nowrap; /* Обрезаем содержимое */
+          position: relative; /* Относительное позиционирование */
+          text-decoration: none; /*убираем подчеркивание текста ссылок*/
+          display: block;
+          /*font-size: 150%;
+          margin: 0px 63.5px auto;*/
+          padding: 3%/*13.7px*/ 0%;
+          color: #ffffff;
+          }
+
+    a.шапка:hover{font-size: 110%;text-shadow:  0 0 1em black;}
+
+    a.вова {
+      text-decoration: none; /*убираем подчеркивание текста ссылок*/
+      color: black;}
+
+    a.пфф {
+      display: inline-block;
+      float: right;
+      width: 100%/*71%*/;
+      /*border: 1px solid black; /* ширина и цвет рамки кнопки*/
+      color: black; /* цвет текста на кнопке*/
+      padding: 0 3%;
+      margin: 0% 0px 0px 0%; /* Кардинаты кнопки */
+      text-decoration: none;
+      background: rgba(179,179,179,0.7); /*цвет кнопки*/
+      font-size: 130%/*14pt*/;
+      cursor:pointer;
+      border-radius: 3px;
+      text-align: center;
+      overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */
+    }
+    a.пфф:hover {background: #e6e6ff;/*цвет кнопки при наведении*/
+    }
+
+    a{text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+		a.подвальчик {
+		text-decoration: none; /*убираем подчеркивание текста ссылок*/
+		/*display: block;*/
+		padding:/*22px 35px*/;
+		color: #ffffff;
+		} 
+
+		li.шапка {float:left;
+			font-size: 150%;
+			width: 13.8%;
+    		margin-left: 0%;
+        	text-align: center;
+		}
+
+    img.footer {width: 5ex; border-radius: 50%; } img.footer0 {width: 5.5ex; border-radius: 50%; margin-top: -0.25ex; margin-right: -0.25ex;}
+
+		nav.footer{padding-left: 37%;
+    /*background: #1c1c29;*/}
+
+    li.подвальчик{
+			float:left;
+			font-size: 120%;
+			width: 13%;
+    		margin-left: 0%;
+        	text-align: center;}
+
+		* {box-sizing: border-box;}
+		form {
+    border-radius: 5px;
+      position: relative;
+      width: 225% /*270px*/;
+      height: 100%;
+      margin: 0 auto;
+    background: #db97a8;
+    /*top: 0.75ex;*/}
+    
+    input, button {
+      border: none;
+      outline: none;
+      background: transparent;}
+    
+    input {
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      width: 100%;
+      padding: 3%/*13.7px*/ 0%;
+      /*padding: 3% 0;
+      /*height:42px*/;
+      /*padding-top: 0%;*/
+      padding-left: 5% /*15px*/;
+      padding-right: 3.5ex;}
+    
+    button {
+      position: absolute;
+      float: right;
+      top: 0;
+      /*left: 0;*/
+      bottom: 0;
+      right: 1%;
+      margin: auto;
+      padding: -1% 1%;
+      /*top: 13%/*5.4px*/;
+      /*right: 1% /*9px*/;
+      cursor: pointer;}
+    
+    button:before {
+      content: "\f002";
+      font-family: FontAwesome;
+      font-size: 180%/*27px*/;
+      color: #b07080;}
+
+    div.site-1{
+      border-radius: 5px;
+      float: left; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 32% /*48.75% /*485px*/; /*Фиксируем ширину блока*/
+      /*height: 16.5ex;
+      /*margin-right: 10px;*/
+      text-align:left; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 0.5% 0.5% 1% /*0px 5px 10px*/; /* Отступы */
+      background: rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      /*max-width: 40%;*/
+      }
+
+      div.site-2{
+      border-radius: 5px;
+      float: left; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 32%/*48.75%/*485px*/; /*Фиксируем ширину блока*/
+      /*height: 16.5ex;
+      /*margin-right: 0.5%;*/
+      text-align:justify; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 0.5% 1% 1%; /* Отступы */
+      background:rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      /*max-width: 40%;*/
+      }
+
+      div.site-3{
+      border-radius: 5px;
+      float: right; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 32%/*485px*/; /*Фиксируем ширину блока*/
+      /*height: 16.5ex;
+      /*margin-right: 0.5%;*/
+      text-align:justify; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 0.5% 0.5% 1%; /* Отступы */
+      background:rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      /*max-width: 40%;*/
+      }
+
+      div.невидимка{width: 100%; padding-left: 15.25ex;
+        min-width: 60%;}
+
+  		h1.parkour{ opacity: 0.86;
+  		/*height: 20%;*/
+  		text-align: center;
+  		margin: 2% 1% auto;/*Первое значение-отступ сверху;Второе значение-отступ слева*/
+  		border: 4px double black; /* Параметры границы */
+    	background: #fc3; /* Цвет фона */
+    	padding: 0px; /* Поля вокруг текста */
+    	width: /*226px*/;
+      }
+
+      .гдэ {
+      overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */
+      margin: 0.75ex 0% 0px;
+      font-size: 115%;
+      color:#262626;
+      }
+
+        .блинчик{
+          text-align:justify; /*Центрируем текст по горизонтали*/
+          margin-top:-2%;}
+
+    	div.site-content {background:#ffffff; border-radius: 5px;min-width: 82ex;
+    	margin: 1% 0% auto; /*Первое значение-отступ сверху;Второе значение-отступ слева*/
+    	}
+
+    	div.site-content-intro{
+    	margin-left: 1.7%;
+    	margin-right: 1.7%;
+    	}
+
+    	p{font-size: 113%;margin: 0% 0% 0%;}
+
+    	p.text-align{text-align:justify;margin-bottom: 1%;
+         }
+
+    	div.logo{width: 35ex;padding-top: 4%;
+        /*height: 260px /*350px*/;}
+
+    	p.dline{font-size: 104% /*12.5pt*/;
+    		margin: 1% 1% auto;/*Первое значение-отступ сверху;Второе значение-отступ слева*/
+    		color:#ffffff;
+    		opacity: 0.86;/*Празрачность*/ }
+
+      h1.бленчек{line-height: 15pt;
+        padding-top: 1%;}
+
+
+      h2.блин{margin-top: 0.25ex;
+        overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */}
+
+      h2.блинчик{line-height: 0px;margin-top: 4%;}
+
+       h3.олашечка{line-height: 70%;font-size: 113%;
+      overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */
+      margin: -1ex 0% 0%;
+      font-size: 110%;
+      }
+
+      h1.block{
+      font-size: 250%;
+      border-radius: 5px;
+      margin: 7% 0.5% 1%/*40px 5px 10px*/;
+      background:rgba(169, 169, 169, 0.6);      
+      width: 99% /*600px*/;
+      padding: 0.5%;
+      text-align:center;
+      }
+
+      img.вова{border-radius: 4px;
+        /*margin-right: 1% ;*/
+        /*min-width: 10ex;
+        min-height: 10ex;*/
+        width: 13ex;
+        height:13ex;
+        max-width: 100%;
+        }
+
+      img.ууу{display:block; margin:0 auto;
+        border-radius: 4px;
+        float: center;
+        padding-right: 0%;
+        padding-bottom: 0%;
+        width: 100%;
+        }
+
+
+      #zatemnenie, #zatemnenie-2, #zatemnenie-3, #zatemnenie-4, #zatemnenie-5, #zatemnenie-6, #zatemnenie-7, #zatemnenie-8, #zatemnenie-9, #zatemnenie-10, #zatemnenie-11, #zatemnenie-12, #zatemnenie-13, #zatemnenie-14, #zatemnenie-15, #zatemnenie-16, #zatemnenie-17, #zatemnenie-18,#zatemnenie-0, #zatemnenie-02, #zatemnenie-03, #zatemnenie-04, #zatemnenie-05, #zatemnenie-06, #zatemnenie-07, #zatemnenie-08, #zatemnenie-111, #zatemnenie-222, #zatemnenie-333, #zatemnenie-444, #zatemnenie-555 {
+        /*background: rgba(102, 102, 102, 0.5);*/
+        background: linear-gradient(to top,rgba(102, 102, 102, 0), rgba(102, 102, 102, 0.55));
+        width: 100%;
+        height: 130%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;}
+      #okno {
+        /*float: justify;*/
+        border-radius: 5px;
+        width: 49% /*70ex*/;
+        min-width: 60ex;
+        max-width: 100%;
+        /*height: 88.5ex;*/
+        text-align: justify;
+        padding: 1%;
+        /*border: 1px solid black; /* ширина и цвет рамки окна */
+        /*border-radius: 10px;*/
+        color: black; /* цвет текста */
+        position: relative;
+        top: 13ex;
+        margin: auto;
+        background: #fff; /* цвет окна */
+        padding-bottom: 7.5ex;
+      }
+
+
+      #zatemnenie:target, #zatemnenie-2:target, #zatemnenie-3:target, #zatemnenie-4:target, #zatemnenie-5:target, #zatemnenie-6:target, #zatemnenie-7:target, #zatemnenie-8:target, #zatemnenie-9:target, #zatemnenie-10:target, #zatemnenie-11:target, #zatemnenie-12:target, #zatemnenie-13:target, #zatemnenie-14:target, #zatemnenie-15:target, #zatemnenie-16:target, #zatemnenie-17:target, #zatemnenie-18:target,#zatemnenie-0:target, #zatemnenie-02:target, #zatemnenie-03:target, #zatemnenie-04:target, #zatemnenie-05:target, #zatemnenie-06:target, #zatemnenie-07:target, #zatemnenie-08:target, #zatemnenie-111:target, #zatemnenie-222:target, #zatemnenie-333:target, #zatemnenie-444:target, #zatemnenie-555:target {display: block;}
+      .close {
+        float: right;
+        display: inline-block;
+        /*border: 1px solid black; /* ширина и цвет рамки кнопки*/
+        color: black; /* цвет текста на кнопке*/
+        padding: 0.5% 0%;
+        margin: 2% 0% 0% 0%; /* Кардинаты кнопки */
+        text-decoration: none;
+        text-align: center;
+        background: #f2f2f2; /*цвет кнопки*/
+        font-size: 15pt;
+        cursor:pointer;
+        width: 18%;
+        margin-left: 2%;
+      }
+      .close:hover {background: #e6e6ff;/*цвет кнопки при наведении*/
+      }
+
+
+    	footer{
+      
+      width: 100%;
+      margin-top: 1ex;
+      padding-top: 0.5ex;
+    	color: #dddddd;
+      padding-bottom: 1ex}
+
+      /*Контакты*/
+
+      img.вовха{
+      border-radius: 50%;
+      /*margin-right: 1% ;*/
+      margin-top: 0%;
+      width: 17ex;
+      height:17ex;
+      max-width: 100%;
+      }
+
+      p.ига {
+      overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */
+      margin: 0.75ex 0% 0px;
+      font-size: 115%;
+      color:#262626;
+      }
+
+      p.хобана{overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */}
+
+      div.невидимка-контакт{width: 100%; padding-left: 20ex;
+        min-width: 60%;}
+
+      div.контакт-01{
+      border-radius: 5px;
+      float: left; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 47% /*485px*/; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align:left; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 10.9% 1.5% 10.9% /*0px 5px 10px*/; /* Отступы */
+      background: rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      }
+
+      div.контакт-02{
+      border-radius: 5px;
+      float: right; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 47%/*485px*/; /*Фиксируем ширину блока*/
+      /*margin-right: 0.5%;*/
+      text-align:justify; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 10.9% 1.5% 10.9%; /* Отступы */
+      background:rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      }
+      
+      
+      /*Занятно*/
+
+      div.site-01{
+      border-radius: 5px;
+      float: left; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 48.75% /*485px*/; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align:left; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 0.5% 0.5% 1% /*0px 5px 10px*/; /* Отступы */
+      background: rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      }
+
+      div.site-02{
+      border-radius: 5px;
+      float: right; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 48.75%/*485px*/; /*Фиксируем ширину блока*/
+      /*margin-right: 0.5%;*/
+      text-align:justify; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 0.5% 0.5% 1%; /* Отступы */
+      background:rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      }
+
+      /*div.ааа{background: #ffffff;
+      opacity: 0.8;
+      border-radius: 4px;
+      float: right;
+      width: 75%;
+      height: 100%;padding: 0.5%/*5px*/;
+      } 
+
+      p.фиксик{font-size: 113%;margin: 0% 0% 0%;color:#525252;}
+
+      .где {
+      overflow: hidden;
+      white-space: nowrap; /* Обрезаем содержимое */
+      position: relative; /* Относительное позиционирование */
+      text-overflow: ellipsis; /* Многоточие */
+      margin: 4% 0% 0px;
+      font-size: 110%;
+      color:#525252;
+      }
+
+      img.вовачка{
+      border-radius: 4px;
+      /*margin-right: 1% ;*/
+      margin-top: 0%;
+      width: 13ex;
+      height:13ex;
+      max-width: 100%;
+      }
+
+    /*Жизнь*/
+
+    div.contenty{background:#ffffff;;opacity: 0.8; border-radius: 5px;margin: 1% 0% auto;
+      padding-right: 1%; padding-left: 1%;padding-bottom: 0.5%;}
+    div.contenty1{background:#ffffff;;opacity: 0.8; border-radius: 5px;margin: 1% 0% auto;margin-top: 6%;
+      padding-right: 1%; padding-left: 1%;padding-bottom: 0.5%;}
+
+    .contentyk{background:#ffffff;opacity: 0.8; border-radius: 5px;margin: 1% 0% auto;
+      padding-right: 1%; padding-left: 1%;padding-bottom: 0.5%;width:55%;}
+
+    .contentyk2{background:#ffffff;opacity: 0.8; border-radius: 5px;margin: -1% 0% auto;
+      padding-right: 1%; padding-left: 1%;padding-bottom: 0.5%;}
+
+    .ино{width: 44%;border-radius: 5px;
+    }
+
+    /*ГЛАВНАЯ*/
+
+    div.контакт-0{
+      border-radius: 5px;
+      float: left; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 48% /*485px*/; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align:left; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 3ex 1.5% 0% /*0px 5px 10px*/; /* Отступы */
+      background: rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      }
+
+      img.новасти{
+      border-radius: 4px;
+      /*margin-right: 1% ;*/
+      margin-top: 0%;
+      width: 11ex;
+      height: 11ex;
+      max-width: 100%;
+      }
+
+      div.палосачка{ padding-top: 0.01%;min-height: 85ex;
+      border-left: 2px solid #ccc; /* Параметры линии */
+      margin-left: 51%; /* Отступ слева */
+      padding-left: 1%; /* Расстояние от линии до текста */
+      }
+
+      h1.blocky{
+      font-size: 250%;
+      border-radius: 5px;
+      margin: 12% 0% 1%/*40px 5px 10px*/;
+      background:#ffffff;      
+      width: 100% /*600px*/;
+      padding: 0.5%;
+      text-align:center;
+      }
+
+      h2.чаво{text-align: left;}
+      div.невидимка-кент{width: 100%; padding-left: 13ex;
+        min-width: 60%; padding-top: 1.25ex;}
+
+        div.контакт-13{
+      border-radius: 5px;
+      float: left; /*Задаем обтекание*/
+      /*line-height: 20px;/*Высота строки +  верт. центрирования текста*/
+      /*font-size: 40px;*/
+      /*margin-top: 60px*/;
+      width: 48% /*485px*/; /*Фиксируем ширину блока*/
+      /*margin-right: 10px;*/
+      text-align:left; /*Центрируем текст по горизонтали*/
+      /*height: 133px;*/
+      margin: 3ex 1.5% 0% /*0px 5px 10px*/; /* Отступы */
+      background: rgba(169, 169, 169, 0.6);
+      padding: 0.5ex/*0.4%/*5px*/;/* Поля вокруг текста */
+      min-width: 40ex
+      }
+
+      h3.вверх{margin-top: 5ex;}
